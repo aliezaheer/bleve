@@ -1,5 +1,5 @@
 import React from "react";
-import RedButton from "../buttons/RedButton";
+import RedButton from "@/buttons/RedButton";
 
 const BeforeFooter = () => {
   return (
