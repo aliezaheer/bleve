@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
+import BeforeFooter from "./BeforeFooter";
 
 const AllServices = () => {
   return (
@@ -24,7 +25,7 @@ const AllServices = () => {
                 />
               </div>
               <h3>Web Development</h3>
-              <p>
+              <p className="sm:text-xs">
                 In today's digital age, a website is often the first point of
                 contact between a business and its potential customers. It's
                 essential to have a website that not only looks great but also
@@ -44,7 +45,7 @@ const AllServices = () => {
                 />
               </div>
               <h3>App Development</h3>
-              <p>
+              <p className="sm:text-xs">
                 Mobile apps have become an integral part of modern-day business,
                 allowing businesses to reach and engage their customers
                 on-the-go. At Blevemedia, we specialize in creating custom
@@ -63,7 +64,7 @@ const AllServices = () => {
                 />
               </div>
               <h3>Software Development</h3>
-              <p>
+              <p className="sm:text-xs">
                 Custom software can be a game-changer for businesses looking to
                 improve efficiency, productivity, and profitability. Whether you
                 need a mobile app, a desktop application, or a web-based
@@ -83,7 +84,7 @@ const AllServices = () => {
                 />
               </div>
               <h3>IT reseliing</h3>
-              <p>
+              <p className="sm:text-xs">
                 Discover the power of IT reselling, our cutting-edge service at
                 BleveMedia. We source and provide top-tier technology solutions,
                 tailored to meet your business needs. With our expertise in IT
@@ -103,7 +104,7 @@ const AllServices = () => {
                 />
               </div>
               <h3>Social Media Marketing</h3>
-              <p>
+              <p className="sm:text-xs">
                 Social media has become an essential part of modern-day
                 marketing, allowing businesses to connect with their customers
                 and promote their products and services. We specialize in
@@ -122,7 +123,7 @@ const AllServices = () => {
                 />
               </div>
               <h3>Graphics Design</h3>
-              <p>
+              <p className="sm:text-xs">
                 Our team of designers has extensive experience in creating
                 designs that represent your business and engage your target
                 audience. We take pride in our ability to deliver high-quality
@@ -134,6 +135,7 @@ const AllServices = () => {
           </div>
         </div>
       </section>
+      <BeforeFooter />
       <Footer />
     </>
   );

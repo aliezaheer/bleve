@@ -5,9 +5,9 @@ const Footer = () => {
     <footer className="footer bg-realGreen h-full pt-8 font-bold">
       <div className="flex justify-around items-center py-16">
         <h2 className="text-4xl leading-tight text-fontGreen">
-          Do more with
+          We Put Out Our Vast
           <br />
-          your money
+          Experience in Words.
         </h2>
 
         <div>

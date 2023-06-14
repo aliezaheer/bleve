@@ -10,6 +10,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',
+      'black': '#000000',
       'secondSec': '#058189',
       'red': '#ff0100',
       'hoverRed': '#eb2b2a;',
