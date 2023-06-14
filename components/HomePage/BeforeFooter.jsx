@@ -1,6 +1,3 @@
-"use client";
-import Button from "@mui/material/Button";
-
 const BeforeFooter = () => {
   return (
     <div className="flex justify-around items-center bg-white text-black h-60">
@@ -15,12 +12,12 @@ const BeforeFooter = () => {
         </h2>
       </div>
       <div>
-        <Button
-          className="bg-white hover:bg-black text-hoverRed hover:opacity-100 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+        <button
+          className="bg-red hover:bg-black text-white hover:opacity-100 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
           variant="contained"
         >
           Get In Touch
-        </Button>
+        </button>
       </div>
     </div>
   );

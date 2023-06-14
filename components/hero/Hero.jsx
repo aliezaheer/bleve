@@ -19,7 +19,12 @@ const Hero = () => {
           Services
         </h1>
 
-        <OutlinedButton buttonText="Get Expert Mentorship" />
+        <button
+          className="bg-red hover:bg-hoverRed mt-4 ml-14  py-5 px-12 rounded-full"
+          variant="contained"
+        >
+          Get Expert Mentorship
+        </button>
       </div>
       <Services />
     </div>

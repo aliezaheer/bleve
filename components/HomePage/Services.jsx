@@ -25,7 +25,12 @@ const Services = () => {
           </h2>
           <div className="flex align-middle">
             <div>
-              <CyanButton buttonText="Learn More" />
+              <button
+                className="bg-white text-secondSec hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+                variant="contained"
+              >
+                LernMore
+              </button>
             </div>
             <div className="w-60 text-xs ml-5 ">
               Our team analyzes and measures your brand’s message and online

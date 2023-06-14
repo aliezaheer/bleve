@@ -22,7 +22,12 @@ const BusinessProcess = () => {
           </h2>
           <div className="flex">
             <div>
-              <PinkButton buttonText="Learn More" />
+              <button
+                className="bg-white text-lightPurple hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+                variant="contained"
+              >
+                Learn More
+              </button>
             </div>
             <div className="w-60 text-xs ml-5 ">
               Without a clear brand, powerful website and effective online

@@ -23,7 +23,12 @@ const HomeFourthSec = () => {
           </h2>
           <div className="flex">
             <div>
-              <BlueButton buttonText="Learn More" />
+              <button
+                className="bg-white text-realBlue hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+                variant="contained"
+              >
+                Learn More
+              </button>
             </div>
             <div className="w-60 text-xs ml-5 ">
               we can secure competitive pricing and deliver cost-effective
