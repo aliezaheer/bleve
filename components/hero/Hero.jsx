@@ -13,7 +13,7 @@ const Hero = () => {
           <br />
           <span>Power Of</span>
           <br />
-          <span className="ml-6 text-hoverRed">
+          <span className="ml-6 text-red">
             IT Reselling <br />
           </span>
           Services

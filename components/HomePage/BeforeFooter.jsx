@@ -1,5 +1,5 @@
+import { Button } from "@mui/material";
 import React from "react";
-import RedButton from "@/buttons/RedButton";
 
 const BeforeFooter = () => {
   return (
@@ -15,7 +15,12 @@ const BeforeFooter = () => {
         </h2>
       </div>
       <div>
-        <RedButton buttonText="Get In Touch" />
+        <Button
+          className="bg-white text-hoverRed hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+          variant="contained"
+        >
+          {buttonText}
+        </Button>
       </div>
     </div>
   );
