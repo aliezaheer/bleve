@@ -1,5 +1,5 @@
+"use client";
 import { Button } from "@mui/material";
-import React from "react";
 
 const BeforeFooter = () => {
   return (
@@ -16,10 +16,10 @@ const BeforeFooter = () => {
       </div>
       <div>
         <Button
-          className="bg-white text-hoverRed hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+          className="bg-white hover:bg-black text-hoverRed hover:opacity-100 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
           variant="contained"
         >
-          {buttonText}
+          Get In Touch
         </Button>
       </div>
     </div>
