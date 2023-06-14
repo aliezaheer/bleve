@@ -216,4 +216,8 @@ p {
     flex-basis: 33.33%;
     max-width: 33.33%;
   }
+
+  .card {
+    height: 21em !important;
+  }
 }
