@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BeforeFooter = () => {
   return (
     <div className="flex justify-around items-center bg-white text-black h-60">
@@ -12,12 +14,14 @@ const BeforeFooter = () => {
         </h2>
       </div>
       <div>
-        <button
-          className="bg-red hover:bg-black text-white hover:opacity-100 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
-          variant="contained"
-        >
-          Get In Touch
-        </button>
+        <Link href="/contact">
+          <button
+            className="bg-red hover:bg-black text-white hover:opacity-100 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+            variant="contained"
+          >
+            Get In Touch
+          </button>
+        </Link>
       </div>
     </div>
   );
