@@ -1,5 +1,4 @@
 import Services from "../HomePage/Services";
-import OutlinedButton from "@/buttons/OutlinedButton";
 
 const Hero = () => {
   return (

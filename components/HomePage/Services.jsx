@@ -2,8 +2,6 @@ import Image from "next/image";
 import servicesBg from "../../public/servicesBg.png";
 import BusinessProcess from "./BusinessProcess";
 
-import CyanButton from "@/buttons/CyanButton";
-
 // Second section on homepage
 
 const Services = () => {

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import businessBg from "../../public/businessbBg.png";
-import PinkButton from "@/buttons/PinkButton";
 import HomeFourthSec from "./HomeFourthSec";
 
 // Third section on homepage
