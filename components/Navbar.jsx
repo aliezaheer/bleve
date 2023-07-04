@@ -14,50 +14,61 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between px-8 my-6">
+    <div className="flex justify-between px-8 ">
       <div>
         <Image
           className="bleve-logo"
           src={logo}
           alt="Logo"
-          width={80}
-          height={100}
+          width={100}
+          height={0}
         />
       </div>
-      <Menu
-        right
-        width={"100%"}
-        customBurgerIcon={
-          <Image className="ham-menu" src={hamburger} width={30} height={30} />
-        }
-        customCrossIcon={<Image src={close} width={20} height={40} />}
-      >
-        <Image
-          className="menu-logo"
-          src={logo}
-          alt="Logo"
-          width={80}
-          height={100}
+
+      <div className="navigation">
+        <input
+          type="checkbox"
+          className="navigation__checkbox"
+          id="nav-toggle"
         />
-        <Link className="menu-item" href="/">
-          Home
-        </Link>
-        <Link className="menu-item" href="/">
-          Mentorship program
-        </Link>
-        <Link className="menu-item" href="/">
-          Get Mentorship
-        </Link>
-        <Link className="menu-item" href="/">
-          Services
-        </Link>
-        <Link className="menu-item" href="/">
-          Big Projects
-        </Link>
-        <Link className="menu-item" href="/">
-          Contact
-        </Link>
-      </Menu>
+        <label htmlFor="nav-toggle" className="navigation__button">
+          <span
+            className="navigation__icon"
+            aria-label="toggle navigation menu"
+          ></span>
+        </label>
+        <div className="navigation__background"></div>
+
+        <nav className="navigation__nav" role="navigation">
+          <ul className="navigation__list">
+            <li className="navigation__item">
+              <a href="#" className="navigation__link">
+                <span>01</span>Sobre
+              </a>
+            </li>
+            <li className="navigation__item">
+              <a href="#" className="navigation__link">
+                <span>02</span>Habilidades
+              </a>
+            </li>
+            <li className="navigation__item">
+              <a href="#" className="navigation__link">
+                <span>03</span>Trabalhos
+              </a>
+            </li>
+            <li className="navigation__item">
+              <a href="#" className="navigation__link">
+                <span>04</span>Eventos
+              </a>
+            </li>
+            <li className="navigation__item">
+              <a href="#" className="navigation__link">
+                <span>05</span>Contato
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
   );
 };
