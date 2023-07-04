@@ -14,9 +14,27 @@ const ContactForm = () => {
     // Validation code (same as before)
   };
 
-  const handleSubmit = (e) => {
-    // Submit code (same as before)
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch("/api/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name, email, phoneNumber, message }),
+    });
+
+    if (response.ok) {
+      // Form submitted successfully
+      // You can show a success message or redirect the user to another page
+    } else {
+      // Form submission failed
+      const errorData = await response.json();
+      // Handle the error, display an error message, etc.
+    }
   };
+  
 
   return (
     <div className="w-96 ">
