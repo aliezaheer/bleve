@@ -6,9 +6,8 @@ import "../../styles/globals.css";
 const ContactPage = () => {
   return (
     <div className="bg-white">
+      <Navbar />
       <div className="bg-white pt-48 text-black">
-        <Navbar />
-
         <ContactInfo />
       </div>
       <div className="mt-10">

@@ -16,13 +16,15 @@ const Navbar = () => {
   return (
     <div className="flex justify-between px-8 ">
       <div>
-        <Image
-          className="bleve-logo"
-          src={logo}
-          alt="Logo"
-          width={100}
-          height={0}
-        />
+        <Link href="/">
+          <Image
+            className="bleve-logo"
+            src={logo}
+            alt="Logo"
+            width={100}
+            height={0}
+          />
+        </Link>
       </div>
 
       <div className="navigation">

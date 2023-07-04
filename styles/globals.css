@@ -19,7 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #000000;
-  font-family: "M PLUS Rounded";
+  font-family: "Roboto";
 }
 
 /* Position and sizing of burger button */
@@ -376,7 +376,7 @@ body {
   display: inline-block;
   width: 2.2rem;
   height: 2px;
-  background-color: #4a676a;
+  background-color: #eb2b2a;
 }
 
 @media (min-width: 768px) {
@@ -441,3 +441,7 @@ dark-blue: #4A676A;
 cream: #FFEAA5;
 yellow: #FFB037;
 */
+
+.css-198d80j-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: transparent;
+}
