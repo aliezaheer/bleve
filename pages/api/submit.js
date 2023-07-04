@@ -1,6 +1,6 @@
 // pages/api/submit.js
 
-import { connectToDatabase } from "../../mongodb";
+import { connectToDatabase } from "../../app/db/db";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
@@ -10,10 +10,9 @@ export default async function handler(req, res) {
     // (You can use the same validation code as before)
 
     // If validation fails, return an error response
-    if (/* validation failed */) {
-      return res.status(400).json({ error: "Invalid form data" });
+    if (!name || !email || !phoneNumber || !message) {
+      return res.status(400).json({ error: "Please fill in all the fields" });
     }
-
     // Connect to MongoDB
     const client = await connectToDatabase();
 

@@ -34,7 +34,6 @@ const ContactForm = () => {
       // Handle the error, display an error message, etc.
     }
   };
-  
 
   return (
     <div className="w-96 ">
@@ -91,13 +90,13 @@ const ContactForm = () => {
             />
           </Box>
           <Box my={2}>
-            <Button
-              sx={{ color: "#FF0000", border: "1px solid #FF0000" }}
+            <button
+             className="formBtn"
               type="submit"
               variant="contained"
             >
               Submit
-            </Button>
+            </button>
           </Box>
         </form>
       </Box>
