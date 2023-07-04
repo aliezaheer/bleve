@@ -45,27 +45,27 @@ const Navbar = () => {
           <ul className="navigation__list">
             <li className="navigation__item">
               <a href="#" className="navigation__link">
-                <span>01</span>Sobre
+                <span>01</span>Home
               </a>
             </li>
             <li className="navigation__item">
               <a href="#" className="navigation__link">
-                <span>02</span>Habilidades
+                <span>02</span>About
               </a>
             </li>
             <li className="navigation__item">
               <a href="#" className="navigation__link">
-                <span>03</span>Trabalhos
+                <span>03</span>Reviews
               </a>
             </li>
             <li className="navigation__item">
               <a href="#" className="navigation__link">
-                <span>04</span>Eventos
+                <span>04</span>Services
               </a>
             </li>
             <li className="navigation__item">
               <a href="#" className="navigation__link">
-                <span>05</span>Contato
+                <span>05</span>Contact
               </a>
             </li>
           </ul>
