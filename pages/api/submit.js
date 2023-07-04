@@ -4,10 +4,8 @@ import { connectToDatabase } from "../../app/db/db";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
+    res.setHeader("Access-Control-Allow-Origin", "*");
     const { name, email, phoneNumber, message } = req.body;
-
-    // Validate the form data
-    // (You can use the same validation code as before)
 
     // If validation fails, return an error response
     if (!name || !email || !phoneNumber || !message) {
