@@ -266,8 +266,8 @@ body {
   .navigation__button {
     top: 2.5rem;
     right: 4rem;
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
   }
 }
 
@@ -289,8 +289,8 @@ body {
   .navigation__background {
     top: 3.5rem;
     right: 4.5rem;
-    height: 6rem;
-    width: 6rem;
+    height: 4rem;
+    width: 4rem;
   }
 }
 
@@ -335,7 +335,7 @@ body {
 @media (min-width: 768px) {
   .navigation__link:link,
   .navigation__link:visited {
-    font-size: 3.8rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -366,7 +366,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .navigation__icon {
-    margin-top: 3.5rem;
+    margin-top: 2.6rem;
   }
 }
 
