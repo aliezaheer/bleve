@@ -9,6 +9,7 @@ const ContactForm = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
+  const [submissionStatus, setSubmissionStatus] = useState("");
 
   const validateForm = () => {
     // Validation code (same as before)
@@ -27,14 +28,18 @@ const ContactForm = () => {
 
     if (response.ok) {
       // Form submitted successfully
-      // You can show a success message or redirect the user to another page
+      setSubmissionStatus("success");
+      // Empty the form fields
+      setName("");
+      setEmail("");
+      setPhoneNumber("");
+      setMessage("");
     } else {
       // Form submission failed
       const errorData = await response.json();
       // Handle the error, display an error message, etc.
     }
   };
-
   return (
     <div className="w-96 ">
       <Box
@@ -44,6 +49,11 @@ const ContactForm = () => {
           borderRadius: "3px",
         }}
       >
+        {submissionStatus === "success" && (
+          <div style={{ marginBottom: "10px", color: "green" }}>
+            Form submitted successfully!
+          </div>
+        )}
         <form onSubmit={handleSubmit}>
           <Box my={2}>
             <TextField
@@ -90,11 +100,7 @@ const ContactForm = () => {
             />
           </Box>
           <Box my={2}>
-            <button
-             className="formBtn"
-              type="submit"
-              variant="contained"
-            >
+            <button className="formBtn" type="submit" variant="contained">
               Submit
             </button>
           </Box>
