@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
-import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 
 const ContactForm = () => {
@@ -111,14 +110,14 @@ const ContactForm = () => {
             />
           </Box>
           <Box my={2}>
-            <Button
+            <button
               className="formBtn"
               type="submit"
               variant="contained"
               disabled={loading} // Disable the button while loading
             >
               {loading ? "Submitting..." : "Submit"}
-            </Button>
+            </button>
           </Box>
         </form>
       </Box>

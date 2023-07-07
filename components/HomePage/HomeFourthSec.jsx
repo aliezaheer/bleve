@@ -9,7 +9,7 @@ const HomeFourthSec = () => {
     <>
       <div className="bg-realBlue flex justify-between h-full ">
         <div className="mt-12 absolute">
-          <h2 className="text-8xl ml-20 ">
+          <h2 className="text-4xl md:text-8xl ml-20 ">
             Partnering with <br />
             <span className="text-textBlue text-6xl font-bold pl-4">
               Bleve Media

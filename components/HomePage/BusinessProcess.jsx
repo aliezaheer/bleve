@@ -9,7 +9,7 @@ const BusinessProcess = () => {
     <>
       <div className="bg-lightPurple flex justify-between h-full ">
         <div className="mt-12 absolute">
-          <h2 className="text-8xl ml-20 ">
+          <h2 className="text-4xl md:text-8xl md:ml-20 ">
             Bring All <br />
             Together
             <br />
