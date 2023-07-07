@@ -10,6 +10,7 @@ const ContactForm = () => {
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
   const [submissionStatus, setSubmissionStatus] = useState("");
+  const [loading, setLoading] = useState(false); // New loading state
 
   const validateForm = () => {
     // Validation code (same as before)
@@ -17,6 +18,8 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    setLoading(true); // Start the loading state
 
     const response = await fetch("/api/submit", {
       method: "POST",
@@ -39,7 +42,10 @@ const ContactForm = () => {
       const errorData = await response.json();
       // Handle the error, display an error message, etc.
     }
+
+    setLoading(false); // End the loading state
   };
+
   return (
     <div className="w-96 ">
       <Box
@@ -51,7 +57,8 @@ const ContactForm = () => {
       >
         {submissionStatus === "success" && (
           <div style={{ marginBottom: "10px", color: "green" }}>
-            Form submitted successfully!
+            Thank you for submitting the form. We appreciate your interest, and
+            our team will reach out to you.
           </div>
         )}
         <form onSubmit={handleSubmit}>
@@ -61,6 +68,7 @@ const ContactForm = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               error={!!errors.name}
+              color="warning"
               helperText={errors.name}
               fullWidth
             />
@@ -72,6 +80,7 @@ const ContactForm = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               error={!!errors.email}
+              color="warning"
               helperText={errors.email}
               fullWidth
             />
@@ -83,6 +92,7 @@ const ContactForm = () => {
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
               error={!!errors.phoneNumber}
+              color="warning"
               helperText={errors.phoneNumber}
               fullWidth
             />
@@ -95,14 +105,20 @@ const ContactForm = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               error={!!errors.message}
+              color="warning"
               helperText={errors.message}
               fullWidth
             />
           </Box>
           <Box my={2}>
-            <button className="formBtn" type="submit" variant="contained">
-              Submit
-            </button>
+            <Button
+              className="formBtn"
+              type="submit"
+              variant="contained"
+              disabled={loading} // Disable the button while loading
+            >
+              {loading ? "Submitting..." : "Submit"}
+            </Button>
           </Box>
         </form>
       </Box>
