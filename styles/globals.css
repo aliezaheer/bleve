@@ -385,6 +385,11 @@ body {
   .navigation__icon::after {
     width: 3rem;
   }
+  .bleve-logo {
+    margin-top: 17px;
+    position: fixed;
+    width: 5rem;
+  }
 }
 
 .navigation__icon::before,
