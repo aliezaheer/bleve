@@ -9,7 +9,7 @@ const HomeFourthSec = () => {
     <>
       <div className="bg-realBlue flex justify-between h-full ">
         <div className="mt-12 absolute">
-          <h2 className="text-2xl md:text-8xl ml-20 ">
+          <h2 className="text-2xl md:text-8xl ml-0 md:ml-20">
             Partnering with <br />
             <span className="text-textBlue text-6xl font-bold pl-4">
               Bleve Media
@@ -20,7 +20,7 @@ const HomeFourthSec = () => {
               Advantages
             </span>
           </h2>
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div>
               <button
                 className="bg-white text-realBlue hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
@@ -29,7 +29,7 @@ const HomeFourthSec = () => {
                 Learn More
               </button>
             </div>
-            <div className="w-60 text-xs ml-5 ">
+            <div className="w-60 text-xs ml-0 md:ml-5 ">
               we can secure competitive pricing and deliver cost-effective
               solutions. We prioritize efficiency and promptness, ensuring
               timely order processing, seamless logistics, and reliable delivery

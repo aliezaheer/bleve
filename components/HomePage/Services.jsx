@@ -15,13 +15,13 @@ const Services = () => {
               Services
             </span>
             <br />
-            <span className="text-matchingTextCyan text-6xl font-bold pl-4">
+            <span className="text-matchingTextCyan text-6xl font-bold pl-0 md:pl-4">
               Brand, Build, Grow
             </span>
             <br />
             <span className="-ml-4">INSTANTLY</span>
           </h2>
-          <div className="flex align-middle">
+          <div className="flex flex-wrap align-middle">
             <div>
               <button
                 className="bg-white text-secondSec hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
@@ -30,7 +30,7 @@ const Services = () => {
                 LernMore
               </button>
             </div>
-            <div className="w-60 text-xs ml-5 ">
+            <div className="w-60 text-xs ml-0 md:ml-5 ">
               Our team analyzes and measures your brand’s message and online
               health with an in-depth brand analysis. We highlight your brand’s
               strengths, weaknesses, threats, and opportunities. Then we develop

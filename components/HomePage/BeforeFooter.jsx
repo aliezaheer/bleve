@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const BeforeFooter = () => {
   return (
-    <div className="flex justify-around items-center bg-white text-black h-60">
+    <div className="flex flex-wrap md:flex-nowrap justify-around items-center bg-white text-black h-60">
       <div>
         <h2 className="text-3xl ">
           Get done <br />
@@ -16,7 +16,7 @@ const BeforeFooter = () => {
       <div>
         <Link
           href="/contact"
-          className="bg-red hover:bg-black text-white hover:opacity-100 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+          className="bg-red hover:bg-black text-white hover:opacity-100 text-lg py-5 px-8 mt-4 ml-0 md:ml-14 rounded-full"
           variant="contained"
         >
           Get In Touch

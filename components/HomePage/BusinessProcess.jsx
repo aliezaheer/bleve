@@ -19,7 +19,7 @@ const BusinessProcess = () => {
             <br />
             <span className="-ml-4"> Growth</span>
           </h2>
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div>
               <button
                 className="bg-white text-lightPurple hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
@@ -28,7 +28,7 @@ const BusinessProcess = () => {
                 Learn More
               </button>
             </div>
-            <div className="w-60 text-xs ml-5 ">
+            <div className="w-60 text-xs ml:0 md:ml-5 ">
               Without a clear brand, powerful website and effective online
               tools, this leads to wasted budget, poor results and less sales.
               We help you build the foundation your business needs to truly

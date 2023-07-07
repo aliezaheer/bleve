@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer bg-realGreen h-full pt-8 font-bold">
-      <div className="flex justify-around items-center py-16">
+      <div className="flex flex-wrap md:flex-nowrap justify-around items-center py-16">
         <h2 className="text-4xl leading-tight text-fontGreen">
           We Put Out Our Vast
           <br />
