@@ -46,7 +46,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-96 ">
+    <div className="w-96 mt-8 md:mt-0">
       <Box
         sx={{
           boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
@@ -55,7 +55,10 @@ const ContactForm = () => {
         }}
       >
         {submissionStatus === "success" && (
-          <div style={{ marginBottom: "10px", color: "green" }}>
+          <div
+            
+            style={{ marginBottom: "10px", color: "green" }}
+          >
             Thank you for submitting the form. We appreciate your interest, and
             our team will reach out to you.
           </div>

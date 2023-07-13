@@ -491,6 +491,10 @@ yellow: #FFB037;
   .after-hero {
     margin-top: 40rem !important;
   }
+
+  .card {
+    height: 32em !important;
+  }
 }
 
 /* Styles for devices with a minimum width of 601px and a maximum width of 1024px */
