@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Services from "../HomePage/Services";
 
 const Hero = () => {
@@ -19,13 +20,14 @@ const Hero = () => {
           </span>
           Services
         </h1>
-
-        <button
-          className="bg-red hover:bg-hoverRed mt-4 py-5 px-12 rounded-full"
-          variant="contained"
-        >
-          Get Expert Mentorship
-        </button>
+        <Link href="/contact">
+          <button
+            className="bg-red text-sm w-64 md:w-58 md:text-md hover:bg-hoverRed mt-4 py-5 px-12 rounded-full ml-0 md:ml-20"
+            variant="contained"
+          >
+            Get Expert Mentorship
+          </button>
+        </Link>
       </div>
       <Services />
     </div>

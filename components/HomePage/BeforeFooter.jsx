@@ -14,12 +14,13 @@ const BeforeFooter = () => {
         </h2>
       </div>
       <div>
-        <Link
-          href="/contact"
-          className="bg-red hover:bg-black text-white hover:opacity-100 text-lg py-5 px-8 mt-4 ml-0 md:ml-14 rounded-full"
-          variant="contained"
-        >
-          Get In Touch
+        <Link href="/contact">
+          <button
+            className="bg-red hover:bg-black text-white hover:opacity-100 text-lg py-5 px-8 mt-4 ml-0 md:ml-14 rounded-full"
+            variant="contained"
+          >
+            Get In Touch
+          </button>
         </Link>
       </div>
     </div>
