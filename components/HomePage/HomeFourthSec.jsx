@@ -7,7 +7,7 @@ import AllServices from "./AllServices";
 const HomeFourthSec = () => {
   return (
     <>
-      <div className="bg-realBlue flex justify-between h-full pl-4 md:pl-1 pb-12">
+      <div className="bg-realBlue flex justify-between h-full pl-4 md:pl-1  py-24">
         <div className="mt-12 ">
           <h2 className="text-2xl md:text-8xl ml-0 md:ml-20">
             Partnering with <br />

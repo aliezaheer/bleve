@@ -6,8 +6,8 @@ import BusinessProcess from "./BusinessProcess";
 
 const Services = () => {
   return (
-    <div className="after-hero bg-lightPurple -z-40 mt-96 md:mt-0">
-      <div className="bg-secondSec flex justify-around h-full transform rotate-0 md:transform md:-rotate-1 -z-10 pl-4 md:pl-1 pb-12">
+    <div className="after-hero bg-lightPurple -z-40 mt-96 md:mt-0 ">
+      <div className="service-sect bg-secondSec flex justify-around h-full transform rotate-0 md:transform md:-rotate-1 -z-10 pl-4 md:pl-1 py-24 ">
         <div className="mt-20">
           <h2 className="text-2xl md:text-8xl md:ml-20 w-full leading-none">
             <span className="relative">

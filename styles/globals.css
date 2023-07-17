@@ -472,7 +472,7 @@ yellow: #FFB037;
   .bleve-logo {
     margin-top: 25px;
     position: fixed;
-    width: 19%;
+    width: 14%;
   }
 
   .video-background {
@@ -495,6 +495,25 @@ yellow: #FFB037;
 
   .card {
     height: 32em !important;
+  }
+
+  .service-sect {
+    margin-top: 50rem;
+  }
+
+  .navigation__button {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+
+  .navigation__background {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .navigation__icon {
+    width: 2rem;
+    margin-top: 1.6rem;
   }
 }
 

@@ -7,7 +7,7 @@ import HomeFourthSec from "./HomeFourthSec";
 const BusinessProcess = () => {
   return (
     <>
-      <div className="bg-lightPurple flex justify-between h-full pl-4 md:pl-1 pb-12">
+      <div className="bg-lightPurple flex justify-between h-full pl-4 md:pl-1 py-24">
         <div className="mt-12">
           <h2 className="text-2xl md:text-8xl md:ml-20 ">
             Bring All <br />

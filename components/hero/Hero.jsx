@@ -9,7 +9,7 @@ const Hero = () => {
           <source src="/bgVideo.mp4" type="video/mp4" />
         </video>
       </div>
-      <div className="absolute top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/4">
+      <div className="absolute top-80 left-1/2 transform -translate-x-1/2  md:-translate-y-1/4">
         <h1 className="text-4xl md:text-7xl font-bold text-white leading-tight">
           Unlock The
           <br />
