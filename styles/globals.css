@@ -20,7 +20,6 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #000000;
   font-family: "Roboto";
-  width: 200px !important;
 }
 
 /* Position and sizing of burger button */
