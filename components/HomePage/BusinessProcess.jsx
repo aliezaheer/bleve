@@ -1,5 +1,5 @@
 import Image from "next/image";
-import businessBg from "../../public/businessbBg.png";
+import computer from "../../public/computer.png";
 import HomeFourthSec from "./HomeFourthSec";
 
 // Third section on homepage
@@ -38,7 +38,7 @@ const BusinessProcess = () => {
         </div>
 
         <div className="hidden md:block">
-          <Image src={businessBg} alt="" />
+          <Image src={computer} alt="" />
         </div>
       </div>
       <HomeFourthSec />
