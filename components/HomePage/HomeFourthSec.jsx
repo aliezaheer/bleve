@@ -7,29 +7,29 @@ import AllServices from "./AllServices";
 const HomeFourthSec = () => {
   return (
     <>
-      <div className="bg-realBlue flex justify-between h-full ">
-        <div className="mt-12 absolute">
+      <div className="bg-realBlue flex justify-between h-full pl-4 md:pl-1 pb-12">
+        <div className="mt-12 ">
           <h2 className="text-2xl md:text-8xl ml-0 md:ml-20">
             Partnering with <br />
             <span className="text-textBlue text-6xl font-bold pl-4">
               Bleve Media
             </span>
             <br />
-            <span className="-ml-4">
+            <span className="ml-5 md:-ml-4">
               & Get <br />
               Advantages
             </span>
           </h2>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap flex-col-reverse">
             <div>
               <button
-                className="bg-white text-realBlue hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+                className="bg-white text-realBlue hover:opacity-70 text-lg py-5 px-8 mt-4 md:ml-14 rounded-full"
                 variant="contained"
               >
                 Learn More
               </button>
             </div>
-            <div className="w-60 text-xs ml-0 md:ml-5 ">
+            <div className="w-78 md:w-60 text-xs ml-0 md:ml-16 py-4 ">
               we can secure competitive pricing and deliver cost-effective
               solutions. We prioritize efficiency and promptness, ensuring
               timely order processing, seamless logistics, and reliable delivery
@@ -39,7 +39,7 @@ const HomeFourthSec = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="hidden md:block">
           <Image src={businessBg} alt="" />
         </div>
       </div>

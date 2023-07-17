@@ -8,7 +8,7 @@ const BusinessProcess = () => {
   return (
     <>
       <div className="bg-lightPurple flex justify-between h-full pl-4 md:pl-1 pb-12">
-        <div className="mt-12 md:absolute">
+        <div className="mt-12">
           <h2 className="text-2xl md:text-8xl md:ml-20 ">
             Bring All <br />
             Together
@@ -28,7 +28,7 @@ const BusinessProcess = () => {
                 Learn More
               </button>
             </div>
-            <div className="w-78 md:w-60  text-xs ml-0 md:ml-16 py-4">
+            <div className="w-78 md:w-60 text-xs ml-0 md:ml-16 py-4">
               Without a clear brand, powerful website and effective online
               tools, this leads to wasted budget, poor results and less sales.
               We help you build the foundation your business needs to truly
@@ -37,7 +37,7 @@ const BusinessProcess = () => {
           </div>
         </div>
 
-        <div className="hidden">
+        <div className="hidden md:block">
           <Image src={businessBg} alt="" />
         </div>
       </div>
