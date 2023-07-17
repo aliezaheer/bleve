@@ -7,7 +7,7 @@ import BusinessProcess from "./BusinessProcess";
 const Services = () => {
   return (
     <div className="after-hero bg-lightPurple -z-40 gitmt-96 md:mt-0">
-      <div className="bg-secondSec flex justify-around h-full transform rotate-0 md:transform md:-rotate-1 -z-10">
+      <div className="bg-secondSec flex justify-around h-full transform rotate-0 md:transform md:-rotate-1 -z-10 pl-4 md:pl-1 pb-12">
         <div className="mt-20">
           <h2 className="text-2xl md:text-8xl md:ml-20 w-full leading-none">
             <span className="relative">
@@ -19,18 +19,18 @@ const Services = () => {
               Brand, Build, Grow
             </span>
             <br />
-            <span className="-ml-4">INSTANTLY</span>
+            <span className=" ml-5 md:-ml-4">INSTANTLY</span>
           </h2>
-          <div className="flex flex-wrap align-middle">
+          <div className="flex flex-wrap flex-col-reverse align-middle">
             <div>
               <button
-                className="bg-white text-secondSec hover:opacity-70 text-lg py-5 px-8 mt-4  ml-14 rounded-full"
+                className="bg-white text-secondSec hover:opacity-70 text-lg py-5 px-8 mt-4 md:ml-14 rounded-full"
                 variant="contained"
               >
                 LernMore
               </button>
             </div>
-            <div className="w-60 text-xs ml-0 md:ml-5 ">
+            <div className="w-78 md:w-60 text-xs ml-0 md:ml-16 py-4 ">
               Our team analyzes and measures your brand’s message and online
               health with an in-depth brand analysis. We highlight your brand’s
               strengths, weaknesses, threats, and opportunities. Then we develop
@@ -39,7 +39,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="hidden md:block ">
           <Image src={servicesBg} alt="" />
         </div>
       </div>
