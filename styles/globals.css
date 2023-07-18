@@ -22,92 +22,9 @@ body {
   font-family: "Roboto";
 }
 
-/* Position and sizing of burger button */
-
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: #373a47;
-}
-
-/* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: #ff0100;
-}
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  position: absolute;
-  width: 30px !important;
-  height: 30px !important;
-  right: 61px !important;
-  top: -30px !important;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #ff0100;
-}
-
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
-.bm-menu-wrap {
-  position: fixed;
-  height: 100%;
-}
-
-/* General sidebar styles */
-.bm-menu {
-  background: #000000;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-  margin-top: -5.3rem;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #000000;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
-}
-
-/* Individual item */
-.bm-item {
-  display: inline-block;
-}
-
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.ham-menu {
-  margin: 20px 20px 0 0 !important;
-  width: 40px !important;
-}
-
 .bleve-logo {
   margin-top: 40px;
   position: fixed;
-}
-
-.menu-logo {
-  margin-top: -48px;
-  margin-bottom: 20px;
-}
-
-.menu-item {
-  font-size: 1rem;
-  margin-bottom: 22px;
-}
-
-#react-burger-menu-btn {
-  height: 15% !important;
 }
 
 /* services serction  */
@@ -222,27 +139,6 @@ p {
     height: 21em !important;
   }
 }
-
-/* NavBar animation */
-
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  height: 100vh;
-}
-
-body {
-  background-color: #c1d0d0;
-  font-family: Roboto, Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .navigation__checkbox {
   display: none;
@@ -539,4 +435,32 @@ yellow: #FFB037;
   justify-content: center;
   align-items: center;
   z-index: 9999; /* Ensure it appears above other elements */
+}
+
+.loading-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }

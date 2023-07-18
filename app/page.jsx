@@ -1,5 +1,5 @@
 "use client";
-import Loading from "@/components/loading/loading";
+import Loading from "@/components/loading/Loading";
 import "../styles/globals.css";
 
 import React, { useState, useEffect } from "react";
