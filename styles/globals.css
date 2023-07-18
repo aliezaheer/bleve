@@ -397,8 +397,8 @@ yellow: #FFB037;
   }
 
   .navigation__button {
-    height: 3.6rem;
-    width: 3.6rem;
+    height: 3rem;
+    width: 3rem;
   }
 
   .navigation__background {
@@ -407,8 +407,26 @@ yellow: #FFB037;
   }
 
   .navigation__icon {
-    width: 2rem;
+    width: 1.4rem;
+    height: 1px;
     margin-top: 1.6rem;
+  }
+
+  .navigation__icon,
+  .navigation__icon::before,
+  .navigation__icon::after {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1px;
+    background-color: #eb2b2a;
+  }
+
+  .navigation__icon::after {
+    top: 0.6rem;
+  }
+
+  .navigation__icon::before {
+    top: -0.6rem;
   }
 }
 
