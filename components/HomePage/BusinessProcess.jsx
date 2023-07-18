@@ -7,7 +7,7 @@ import HomeFourthSec from "./HomeFourthSec";
 const BusinessProcess = () => {
   return (
     <>
-      <div className="bg-lightPurple flex justify-between h-full pl-4 md:pl-1 py-24">
+      <div className="bg-lightPurple flex justify-between flex-col md:flex-row  h-full pl-4 md:pl-1 py-12 xl:py-16 2xl:py-52">
         <div className="mt-12">
           <h2 className="text-2xl md:text-8xl md:ml-20 ">
             Bring All <br />
@@ -37,7 +37,7 @@ const BusinessProcess = () => {
           </div>
         </div>
 
-        <div className="hidden md:block">
+        <div className="mt-12 lg:mt-0 -ml-10">
           <Image src={computer} alt="" />
         </div>
       </div>
