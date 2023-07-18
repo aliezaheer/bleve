@@ -13,12 +13,12 @@ const Hero = () => {
         <h1 className="text-4xl md:text-7xl 2xl:text-8xl font-bold text-white leading-tight">
           Unlock The
           <br />
-          <span className="ml-40">Power Of</span>
+          <span className=" xl:ml-40">Power Of</span>
           <br />
-          <span className="-ml-6 text-red">
+          <span className="ml-10 xl:-ml-6 text-red">
             IT Reselling <br />
           </span>
-          <span className="ml-40">Services</span>
+          <span className="xl:ml-40">Services</span>
         </h1>
         <Link href="/contact">
           <button

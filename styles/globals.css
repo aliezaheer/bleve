@@ -23,7 +23,7 @@
 body {
   color: #ffffff;
   background: #000000;
-  font-family: "Livvic";
+  font-family: "Livvic" !important;
 }
 
 .bleve-logo {
@@ -166,8 +166,8 @@ p {
   .navigation__button {
     top: 2.5rem;
     right: 4rem;
-    height: 5rem;
-    width: 5rem;
+    height: 3.3rem;
+    width: 3.3rem;
   }
 }
 
@@ -187,10 +187,10 @@ p {
 
 @media screen and (min-width: 768px) {
   .navigation__background {
-    top: 3.5rem;
-    right: 4.5rem;
-    height: 4rem;
-    width: 4rem;
+    top: 2.5rem;
+    right: 4rem;
+    height: 3.3rem;
+    width: 3.3rem;
   }
 }
 
@@ -261,7 +261,7 @@ p {
 
 .navigation__icon {
   position: relative;
-  margin-top: 2.5rem;
+  margin-top: 1.8rem !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -283,7 +283,7 @@ p {
   .navigation__icon,
   .navigation__icon::before,
   .navigation__icon::after {
-    width: 3rem;
+    width: 2.3rem;
   }
 }
 
@@ -296,7 +296,7 @@ p {
 }
 
 .navigation__icon::before {
-  top: -0.8rem;
+  top: -0.9rem;
 }
 
 .navigation__icon::after {
@@ -397,7 +397,7 @@ yellow: #FFB037;
   }
 
   .service-sect {
-    margin-top: 50rem;
+    margin-top: 54rem;
   }
 
   .navigation__button {
