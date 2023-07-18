@@ -13,7 +13,7 @@ export default function Home() {
     // Simulate an asynchronous task
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 600);
+    }, 1000);
 
     return () => clearTimeout(timer); // Clean up the timer on unmount
   }, []);

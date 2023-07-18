@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,7 +23,7 @@
 body {
   color: #ffffff;
   background: #000000;
-  font-family: "Roboto";
+  font-family: "Livvic";
 }
 
 .bleve-logo {
@@ -148,8 +152,8 @@ p {
   position: fixed;
   top: 1.5rem;
   right: 1.5rem;
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
   text-align: center;
   background-color: #fff;
   border-radius: 50%;
@@ -459,12 +463,11 @@ yellow: #FFB037;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 120px;
-  height: 120px;
+
   margin: -60px 0 0 -60px;
-  -webkit-animation: spin 4s linear infinite;
-  -moz-animation: spin 4s linear infinite;
-  animation: spin 4s linear infinite;
+  -webkit-animation: spin 30s linear infinite;
+  -moz-animation: spin 30s linear infinite;
+  animation: spin 30s linear infinite;
 }
 @-moz-keyframes spin {
   100% {

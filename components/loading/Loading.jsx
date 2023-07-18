@@ -6,7 +6,7 @@ import Image from "next/image";
 const Loading = () => {
   return (
     <div className="loading">
-      <Image class="loading-image" width={100} src={logo} />
+      <Image className="loading-image w-14" width={100} src={logo} />
     </div>
   );
 };

@@ -18,7 +18,7 @@ const Navbar = () => {
       <div>
         <Link href="/">
           <Image
-            className="bleve-logo"
+            className="bleve-logo md:w-16"
             src={logo}
             alt="Logo"
             width={100}
