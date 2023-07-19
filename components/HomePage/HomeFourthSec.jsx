@@ -6,7 +6,7 @@ import AllServices from "./AllServices";
 
 const HomeFourthSec = () => {
   return (
-    <>
+    <section id="partner">
       <div className="bg-realBlue flex flex-col md:flex-row justify-between h-full pl-4 md:pl-1 py-12">
         <div className="mt-12 ">
           <h2 className="text-2xl md:text-8xl ml-0 md:ml-20">
@@ -44,7 +44,7 @@ const HomeFourthSec = () => {
         </div>
       </div>
       <AllServices />
-    </>
+    </section>
   );
 };
 

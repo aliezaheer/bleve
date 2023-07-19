@@ -79,24 +79,25 @@ const Navbar = () => {
             </li>
             <li className="navigation__item">
               <Link href="/#services" className="navigation__link">
-                <span>02</span>About
+                <span>02</span>Services
               </Link>
-              <li className="navigation__item">
-                <Link href="#" className="navigation__link">
-                  <span>03</span>Reviews
-                </Link>
-              </li>
-              <li className="navigation__item">
-                <Link href="#" className="navigation__link">
-                  <span>04</span>Services
-                </Link>
-              </li>
-              <li className="navigation__item">
-                <Link href="#" className="navigation__link">
-                  <span>05</span>Contact
-                </Link>
-              </li>
             </li>
+            <li className="navigation__item">
+              <Link href="/#partner" className="navigation__link">
+                <span>03</span>Partner
+              </Link>
+            </li>
+            <li className="navigation__item">
+              <Link href="#" className="navigation__link">
+                <span>04</span>Services
+              </Link>
+            </li>
+            <li className="navigation__item">
+              <Link href="/contact" className="navigation__link">
+                <span>05</span>Contact
+              </Link>
+            </li>
+
             {/* ... (other menu items without any onClick event) */}
           </ul>
         </nav>

@@ -7,7 +7,7 @@ const ContactPage = () => {
   return (
     <div className="bg-white">
       <Navbar />
-      <div className="bg-white pt-48 text-black">
+      <div className="bg-white pt-32 2xl:py-48 text-black">
         <ContactInfo />
       </div>
       <div className="mt-10">
