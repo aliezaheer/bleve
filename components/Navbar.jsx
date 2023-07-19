@@ -88,8 +88,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="navigation__item">
-              <Link href="#" className="navigation__link">
-                <span>04</span>Services
+              <Link href="/#why-us" className="navigation__link">
+                <span>04</span>Why Us?
               </Link>
             </li>
             <li className="navigation__item">

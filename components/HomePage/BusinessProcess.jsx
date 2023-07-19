@@ -6,7 +6,7 @@ import HomeFourthSec from "./HomeFourthSec";
 
 const BusinessProcess = () => {
   return (
-    <>
+    <section id="why-us">
       <div className="bg-lightPurple flex justify-between flex-col md:flex-row  h-full pl-4 md:pl-1 py-12 xl:py-16 2xl:py-52">
         <div className="mt-12">
           <h2 className="text-2xl md:text-8xl md:ml-20 ">
@@ -42,7 +42,7 @@ const BusinessProcess = () => {
         </div>
       </div>
       <HomeFourthSec />
-    </>
+    </section>
   );
 };
 
