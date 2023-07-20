@@ -11,8 +11,8 @@ const Services = () => {
         <div className="service-sect bg-secondSec flex flex-col md:flex-row justify-around h-full transform rotate-0 md:transform md:-rotate-1 -z-10 pl-4 md:pl-1 py- ">
           <div className="mt-20">
             <h2 className="text-2xl md:text-8xl md:ml-20 w-full leading-none">
-              <span className="relative">
-                <span className="absolute top-0 left-0 transform -skew-y-6 bg-gray-100 h-8 w-24 -ml-4"></span>
+              <span className="">
+                <span className=" transform -skew-y-6 bg-gray-100 h-8 w-24 "></span>
                 Services
               </span>
               <br />

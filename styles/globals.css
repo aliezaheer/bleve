@@ -28,8 +28,9 @@ body {
 }
 
 .bleve-logo {
-  margin-top: 40px;
+  margin-top: 25px;
   position: fixed;
+  margin-left: 15px;
 }
 
 /* services serction  */
@@ -165,7 +166,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .navigation__button {
-    top: 2.5rem;
+    top: 1.9rem;
     right: 4rem;
     height: 3.3rem;
     width: 3.3rem;
@@ -188,7 +189,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .navigation__background {
-    top: 2.5rem;
+    top: 1.9rem;
     right: 4rem;
     height: 3.3rem;
     width: 3.3rem;
@@ -352,7 +353,7 @@ yellow: #FFB037;
 }
 
 #nav-item-one {
-  margin-right: 48px !important;
+  margin-right: 66px !important;
 }
 
 .formBtn {
@@ -421,6 +422,7 @@ yellow: #FFB037;
     margin-top: 25px;
     position: fixed;
     width: 14%;
+    margin-left: 0;
   }
 
   .video-background {
