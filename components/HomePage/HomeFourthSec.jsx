@@ -11,11 +11,11 @@ const HomeFourthSec = () => {
         <div className="mt-12 ">
           <h2 className="text-2xl md:text-8xl ml-0 md:ml-20">
             Partnering with <br />
-            <span className="text-textBlue text-6xl font-bold pl-4">
+            <span className="text-textBlue text-6xl font-bold">
               Bleve Media
             </span>
             <br />
-            <span className="ml-5 md:-ml-4">
+            <span className="">
               & Get <br />
               Advantages
             </span>

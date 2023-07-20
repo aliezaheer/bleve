@@ -13,11 +13,11 @@ const BusinessProcess = () => {
             Bring All <br />
             Together
             <br />
-            <span className="text-matchingTextPink text-6xl font-bold pl-4">
+            <span className="text-matchingTextPink text-6xl font-bold ">
               For Faster
             </span>
             <br />
-            <span className="ml-5 md:-ml-4"> Growth</span>
+            <span className=""> Growth</span>
           </h2>
           <div className="flex flex-wrap flex-col-reverse">
             <div>

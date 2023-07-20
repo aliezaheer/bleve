@@ -15,7 +15,7 @@ const Hero = () => {
           <br />
           <span className=" xl:ml-40">Power Of</span>
           <br />
-          <span className="text-7xl xl:text-8xl ml-10 xl:-ml-6 text-red drop-shadow-2xl">
+          <span className="text-[2.9rem] xl:text-8xl text-red drop-shadow-2xl">
             IT Reselling <br />
           </span>
           <span className="xl:ml-40">Services</span>

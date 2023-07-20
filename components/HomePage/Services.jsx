@@ -16,11 +16,11 @@ const Services = () => {
                 Services
               </span>
               <br />
-              <span className="text-matchingTextCyan text-6xl font-bold pl-0 md:pl-4">
+              <span className="ml-[-3px] text-matchingTextCyan text-6xl font-bold mt-10  pl-0 md:pl-4">
                 Brand, Build, Grow
               </span>
               <br />
-              <span className=" ml-5 md:-ml-4">INSTANTLY</span>
+              <span style={{ marginTop: "10px" }}>INSTANTLY</span>
             </h2>
             <div className="flex flex-wrap flex-col-reverse align-middle">
               <div>

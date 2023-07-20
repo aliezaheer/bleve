@@ -72,7 +72,7 @@ const Navbar = () => {
 
         <nav className="navigation__nav" role="navigation">
           <ul className="navigation__list">
-            <li className="navigation__item">
+            <li id="nav-item-one" className="navigation__item">
               <Link href="/" className="navigation__link">
                 <span>01</span>Home
               </Link>
