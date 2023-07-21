@@ -4,7 +4,7 @@ import BeforeFooter from "./BeforeFooter";
 
 const AllServices = () => {
   return (
-    <div id="about" className="pt-6 hidden lg:block">
+    <div id="about" className="pt-6 hidden lg:block ">
       <h2 className="text-matchingTextPink text-6xl font-bold text-center mt-10">
         Our Services
       </h2>

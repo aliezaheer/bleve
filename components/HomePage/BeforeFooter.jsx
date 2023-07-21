@@ -1,11 +1,9 @@
 import Link from "next/link";
 
-
-
 const BeforeFooter = () => {
   return (
     <>
-      <div className="flex flex-wrap md:flex-nowrap justify-around items-center bg-white text-black h-60">
+      <div className="flex flex-wrap md:flex-nowrap justify-around items-center bg-white text-black h-60 mt-14">
         <div>
           <h2 className="text-3xl ">
             Get done <br />
