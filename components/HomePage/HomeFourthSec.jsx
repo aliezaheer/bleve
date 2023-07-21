@@ -1,7 +1,8 @@
+"use client";
 import Image from "next/image";
 import businessBg from "../../public/businessbBg.png";
 import AllServices from "./AllServices";
-
+import ServiceSlider from "../sliders/ServiceSlider";
 // Fourth section on homepage
 
 const HomeFourthSec = () => {
@@ -43,6 +44,7 @@ const HomeFourthSec = () => {
           <Image src={businessBg} alt="" />
         </div>
       </div>
+      <ServiceSlider />
       <AllServices />
     </section>
   );
