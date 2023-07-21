@@ -19,19 +19,19 @@ const Footer = () => {
             </li>
 
             <li>
-              <Link href="/#services">Services</Link>
+              <Link href="/#services">Get Mentorship</Link>
             </li>
 
             <li>
-              <Link href="/#partner">Partner </Link>
+              <Link href="/#partner">Partner With Us </Link>
             </li>
 
             <li>
-              <Link href="/#partner">Why Us? </Link>
+              <Link href="/#partner">Why Choose Us? </Link>
             </li>
 
             <li>
-              <Link href="/#why-us">Contact</Link>
+              <Link href="/#why-us">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -57,7 +57,7 @@ const Footer = () => {
               ></path>
             </svg> */}
 
-            <a href="https://www.instagram.com/blevemedia/">
+            <a target="_blank" href="https://www.instagram.com/blevemedia/">
               <svg
                 role="img"
                 width="21"
@@ -96,7 +96,10 @@ const Footer = () => {
                 ></path>
               </svg>
             </a> */}
-            <a href="https://www.linkedin.com/company/blevemedia?originalSubdomain=pk">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/blevemedia?originalSubdomain=pk"
+            >
               <svg width="21" height="21" viewBox="0 0 21 21" fill="none">
                 <title>BleveMedia - LinkedIn</title>
                 <path
@@ -111,7 +114,8 @@ const Footer = () => {
           <div>
             <p className="text-fontGreen mt-24 mb-2 font-normal">Contact us</p>
             <p className="text-fontGreen mb-0 font-semibold">
-              1 (800) 969-1940
+              {" "}
+              <a href="tel:7473024791">(747) 302-4791</a>
             </p>
             <p className="text-fontGreen mb-0 font-normal">9am - 7pm EST</p>
             <p className="text-fontGreen mb-0 font-normal">Monday to Friday</p>
