@@ -97,8 +97,6 @@ const Navbar = () => {
                 <span>05</span>Contact
               </Link>
             </li>
-
-            {/* ... (other menu items without any onClick event) */}
           </ul>
         </nav>
       </div>
